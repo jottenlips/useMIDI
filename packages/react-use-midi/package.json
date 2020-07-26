@@ -22,7 +22,8 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "tsc": "tsc",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "deploy": "tsc && npm run publish"
   },
   "peerDependencies": {
     "react": ">= 16.8.0 < 17",
