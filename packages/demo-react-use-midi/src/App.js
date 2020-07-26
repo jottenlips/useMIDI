@@ -29,15 +29,6 @@ function App() {
       );
   }, [midi]);
 
-  useEffect(() => {
-    input &&
-      input.addListener &&
-      input.addListener("noteon", "all", (e) => {
-        setNote(`${e.note.name}`);
-        setOctave(e.note.octave);
-      });
-  }, [input]);
-
   return (
     <div className="App" key={midi}>
       <header className="App-header">
