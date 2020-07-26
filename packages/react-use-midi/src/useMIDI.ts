@@ -1,5 +1,6 @@
 import { useState } from "react";
 import * as WebMidi from "webmidi";
+
 export const useMIDI = () => {
   const [inputs, setInputs] = useState();
   const [outputs, setOutputs] = useState();
