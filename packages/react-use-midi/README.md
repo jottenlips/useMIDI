@@ -24,8 +24,6 @@ const MyMIDIComponent = props => {
 
 ## Demo app
 
+[useMIDI](https://jottenlips.github.io/useMIDI/index)
+
 https://github.com/jottenlips/useMIDI/tree/main/packages/demo-react-use-midi
-
-## Live
-
-coming soon...
