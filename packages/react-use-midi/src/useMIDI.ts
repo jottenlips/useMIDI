@@ -17,6 +17,7 @@ export const useMIDI = () => {
   return {
     ...WebMidi,
     getOutputById: WebMidi.getOutputById,
+    getInputById: WebMidi.getInputById,
     inputs,
     outputs,
     accessError,

@@ -3,10 +3,12 @@
   "version": "0.0.1",
   "description": "React hook for using MIDI in the browser",
   "keywords": [
-    "MIDI"
+    "MIDI",
+    "React"
   ],
   "author": "John Ottenlips <jottenlips@gmail.com>",
   "homepage": "",
+  "repository": "https://github.com/jottenlips/useMIDI",
   "license": "MIT",
   "main": "lib/react-use-midi.js",
   "directories": {
