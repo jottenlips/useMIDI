@@ -1,2 +1,2 @@
-import { useMIDI } from "./use";
+import { useMIDI } from "./useMIDI";
 export { useMIDI };
