@@ -1,0 +1,7 @@
+node_modules
+/node_modules
+yarn-error.log
+lerna-debug.log
+/lib
+lib
+./packages/react-use-midi/lib

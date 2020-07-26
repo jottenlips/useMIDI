@@ -1,0 +1,24 @@
+{
+  "name": "react-use-midi",
+  "version": "0.0.0",
+  "description": "React hook for using MIDI in the browser",
+  "keywords": [
+    "MIDI"
+  ],
+  "author": "John Ottenlips <jottenlips@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/react-use-midi.js",
+  "directories": {
+    "lib": "lib",
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "tsc": "tsc"
+  }
+}
