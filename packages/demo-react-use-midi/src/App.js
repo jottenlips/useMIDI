@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { useMIDI } from "react-use-midi";
+import { useMIDI } from "react-use-midi/lib";
 function App() {
   return (
     <div className="App">
