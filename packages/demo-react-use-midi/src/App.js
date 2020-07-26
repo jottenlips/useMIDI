@@ -81,7 +81,9 @@ function App() {
             margin: "20px",
           }}
           onClick={() => {
-            output && midi.getOutputById(output).playNote("C3");
+            output &&
+              midi.getOutputById &&
+              midi.getOutputById(output).playNote("C3");
           }}
         >
           Play C3 to output
