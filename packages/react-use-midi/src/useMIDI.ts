@@ -1,20 +1,23 @@
 import { useState } from "react";
+import * as WebMidi from "webmidi";
 export const useMIDI = () => {
   const [inputs, setInputs] = useState();
-  const [outputs, setOutputs] = useState;
+  const [outputs, setOutputs] = useState();
+  const [accessError, setAccessError] = useState();
 
-  if (navigator.requestMIDIAccess) {
-    console.log("This browser supports WebMIDI!");
-  } else {
-    console.log("WebMIDI is not supported in this browser.");
-  }
-  const onMIDISuccess = (midi) => {
-    setInputs(midi.inputs);
-    setOutputs(midi.outputs);
-  };
-  const onMIDIFailure = () => {
-    console.log("Could not access your MIDI devices.");
-  };
+  WebMidi.enable((err) => {
+    if (err) {
+      setAccessError(err);
+    }
+    setInputs(WebMidi.inputs);
+    setOutputs(WebMidi.outputs);
+  });
 
-  navigator.requestMIDIAccess().then(onMIDISuccess, onMIDIFailure);
+  return {
+    ...WebMidi,
+    getOutputById: WebMidi.getOutputById,
+    inputs,
+    outputs,
+    accessError,
+  };
 };
