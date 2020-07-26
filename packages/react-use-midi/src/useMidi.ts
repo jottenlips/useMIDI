@@ -1,1 +1,1 @@
-console.log("Hello world");
+console.log("Hello MIDI beep beep");
