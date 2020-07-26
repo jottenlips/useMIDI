@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { useMIDI } from "react-use-midi/lib";
 function App() {
+  const midi = useMIDI();
   return (
     <div className="App">
       <header className="App-header">
