@@ -1,11 +1,31 @@
 # `react-use-midi`
 
-> TODO: description
+> MIDI hook for react 🎹↩
 
 ## Usage
 
 ```
-const reactUseMidi = require('react-use-midi');
+import { useMIDI } from 'react-use-midi';
 
-// TODO: DEMONSTRATE API
+const MyMIDIComponent = props => {
+  const midi = useMIDI();
+
+  useEffect(() => {
+    midi.inputs.map((input) =>
+      input.addListener("noteon", "all", (e) => {
+        console.log(`${e.note.name}`);
+      })
+    );
+  }, [midi])
+
+  return <div>{midi.inputs.map(inp => <p key={inp.name}>inp.name<p>)}</div>
+}
 ```
+
+## Demo app
+
+https://github.com/jottenlips/useMIDI/tree/main/packages/demo-react-use-midi
+
+## Live
+
+coming soon...
