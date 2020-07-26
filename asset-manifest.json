@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-use-midi/static/css/main.64261610.chunk.css",
+    "main.js": "/react-use-midi/static/js/main.86594717.chunk.js",
+    "main.js.map": "/react-use-midi/static/js/main.86594717.chunk.js.map",
+    "runtime-main.js": "/react-use-midi/static/js/runtime-main.625b6f1c.js",
+    "runtime-main.js.map": "/react-use-midi/static/js/runtime-main.625b6f1c.js.map",
+    "static/js/2.d09762ae.chunk.js": "/react-use-midi/static/js/2.d09762ae.chunk.js",
+    "static/js/2.d09762ae.chunk.js.map": "/react-use-midi/static/js/2.d09762ae.chunk.js.map",
+    "index.html": "/react-use-midi/index.html",
+    "precache-manifest.37c982c679eafe700832bfd31072c6e1.js": "/react-use-midi/precache-manifest.37c982c679eafe700832bfd31072c6e1.js",
+    "service-worker.js": "/react-use-midi/service-worker.js",
+    "static/css/main.64261610.chunk.css.map": "/react-use-midi/static/css/main.64261610.chunk.css.map",
+    "static/js/2.d09762ae.chunk.js.LICENSE.txt": "/react-use-midi/static/js/2.d09762ae.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react-use-midi/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.625b6f1c.js",
+    "static/js/2.d09762ae.chunk.js",
+    "static/css/main.64261610.chunk.css",
+    "static/js/main.86594717.chunk.js"
+  ]
+}
