@@ -5788,9 +5788,9 @@ hmac-drbg@^1.0.0:
     minimalistic-crypto-utils "^1.0.1"
 
 hosted-git-info@^2.1.4:
-  version "2.8.5"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.5.tgz#759cfcf2c4d156ade59b0b2dfabddc42a6b9c70c"
-  integrity sha512-kssjab8CvdXfcXMXVcvsXum4Hwdq9XGtRD3TteMEvEbq0LXyiNQr6AprqKqfeaDXze7SxWvRxdpwE6ku7ikLkg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 hpack.js@^2.1.6:
   version "2.1.6"
@@ -9651,10 +9651,10 @@ react-scripts@3.4.1:
   optionalDependencies:
     fsevents "2.1.2"
 
-react-use-midi@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/react-use-midi/-/react-use-midi-0.0.1.tgz#c6af93406d8e961ca30a79ae26b69c155a711705"
-  integrity sha512-nTHz2fktjqo7JuRjXGGPMmiBXzN8lDulLcEIX2UyKib0M482vQjZc+2NV9bYRwMJx7zOl2LIuKKcRGNmmMCltg==
+react-use-midi@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/react-use-midi/-/react-use-midi-0.0.3.tgz#ecc7b7fd7a16c31e9d96e8e5583a68d05dc57e0b"
+  integrity sha512-KtE3oI+kOCOtjPKLfbPrw9N71SROCXwLyV04z/hBDTlLbzfGamD6uYZMw1CwF7kUauQf/mUO0W71UcGwSSw2ZQ==
   dependencies:
     webmidi "^2.5.1"
 
